@@ -10,6 +10,8 @@ int main() {
   // Inline declaration and initialization
   int y = 2;
 
+  y = 10;
+
   printf("%d", x);
 
   return 0;

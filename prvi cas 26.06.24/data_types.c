@@ -8,9 +8,9 @@ int main() {
   // float
   float pi = 3.14;
   // double
-  double hourlyRate = 3.124312431343;
+  double hourlyRate = 3.12431243134348729847238974;
   // char
-  char x = 'x';
+  char singleChar = 'w';
   // array of chars
   char firstName[] = "Almedin";
   printf("%s", firstName);
@@ -20,6 +20,7 @@ int main() {
   long long int hugeNumber = 12434234324;
   // unsigned int
   unsigned int y = 4234;
+
 
   return 0;
 }
