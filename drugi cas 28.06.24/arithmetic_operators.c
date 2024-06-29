@@ -29,4 +29,5 @@ int main() {
   -- gdje se oduzima 1 od varijable
   i %(modulo) koje oznacava ostatak - korisno kada hocemo provjeriti da li je broj paran ili neparan
   Prate se prednosti kao i u matematici, gdje je najstarija operacija mnozenje, pa dijeljenje i tako dalje
+  Kada hocemo brojevi koji se dijele da imaju i ostatatk, moraju biti tipa float na kraju i djelioc mora biti podijeljen sa float brojem npr. / (float) x
 */
