@@ -1,14 +1,36 @@
 #include <stdio.h>
+#include <string.h>
 
 int main() {
 
   char sign;
   float temp;
+  float result;
 
-  // Ispisati dalje...
+  printf("Kolika je temperatura danas? \n");
+  //scanf("%f", &temp);
+  temp = 37;
+  printf("Temperatura je %f \n", temp);
+
+  printf("Da li zelite temperaturu u Celsiusima ili Farenheitima? Za Celsius upisite C a za Farenheit upisite F \n");
+  scanf("%c", &sign);
+
+  sign = strupr(sign);
+
+  if (sign == 'C') {
+    result = (temp-32)/1.8;
+    printf("Temperatura je %f", result);
+  } else if (sign == 'F') {
+    result = (temp*1.8)+32;
+    printf("Temperatura je %f", result);
+  } else {
+    printf("Pogresan unos");
+  }
+  
 
   return 0;
 }
+
 
 
 /*
