@@ -40,8 +40,11 @@ int main() {
 
   Zadatak: Napisati funckiju koja samo ispisuje program je startao\n, nadamo se finom iskustvu. Pozvati ovu funkciju na pocetku programa.
   Napisati funckiju koja prima ime kao parametar, i pozdraviti dato ime. Iz programa pozvati funkciju i proslijediti svoje ime.
+
   Napisati funckiju koja ce primiti godinu u buducnosti, npr 2036, i godinu rodjenja npr. 1997, izracunati vrijednost koliko cemo imati godina tad, i vratiti tu vrijednost.
   Snimiti je u varijablu u programu koja se zove result, sve su int tipovi, i isprintati u programu vrijednost.
+
   Napisati funkciju koja prima parametar tipa float, koje ste kilaze ili visine i isprintati.
+  
   I na kraju napisati funkciju koja ce isprintati program je zavrsio, ugodan ostatak dana.
 */
